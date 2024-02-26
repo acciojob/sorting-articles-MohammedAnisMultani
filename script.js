@@ -27,7 +27,7 @@
         })
         // console.log(bands)
 
-         let bandList = document.getElementById('band')
+         let bandList = document.querySelector('#bands')
     bands.forEach((value)=>{
             let listItems = document.createElement('li')
             listItems.innerHTML = `${value}`
